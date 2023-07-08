@@ -33,8 +33,8 @@ def new_scrape():
     for i in range(1, len(scraped_data)):
         Star_names = scraped_data[i][0]
         Distance = scraped_data[i][5]
-        Mass = scraped_data[i][7]
-        Radius = scraped_data[i][8]
+        Mass = scraped_data[i][8]
+        Radius = scraped_data[i][9]
 
         required_data = [Star_names, Distance, Mass, Radius]
         stars_data.append(required_data)
